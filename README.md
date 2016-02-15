@@ -9,8 +9,8 @@ To use this slim theme in NixOS you set the `theme` option, like so:
   slim = {
     enable = true;
     theme = pkgs.fetchurl {
-      url    = "https://github.com/mvaude/nixos-slim-theme/archive/Final.tar.gz";
-      sha256 = "4cab5987a7f1ad3cc463780d9f1ee3fbf43603105e6a6e538e4c2147bde3ee6b";
+      url    = "https://github.com/mvaude/nixos-slim-theme/archive/3.0.tar.gz";
+      sha256 = "0rsrwh4sigh4al6jfm8sg33n2y5wyryzdg3p0r9v3n6b8bqb3m0r";
     };
   };
 ```
